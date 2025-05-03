@@ -1,43 +1,58 @@
+
 ## Table of Contents
 
-1. 🧑‍💻 [AoeM-bot Overview](#aoem-bot)
-2. ⚙️ [Features](#features)
-3. 🖼️ [Bot Screenshots](#bot-screenshots)
-4. 🚀 [How to Use the Auto Start Feature](#how-to-use-the-auto-start-feature)
-5. ⚡ [BlueStacks Settings](#bluestacks-settings)
-6. 🔮 [Possible Features in Future Updates](#possible-features-in-future-updates)
-7. 🤝 [How to Contribute?](#-how-to-contribute)
-8. 💖 [Want to Contribute](#want-to-contribute)
-9. 📜 [License](#license)
+1. 🧑‍💻 [About AoeM-bot](#aoem-bot)
+2. 🚀 [Starting the Bot](#bot-start)
+3. ⚙️ [Features](#features)
+4. 🖼️ [Bot Screenshots](#bot-screenshots)
+5. 🚀 [Using the Auto Start Feature](#using-the-auto-start-feature)
+6. ⚙️ [BlueStacks Settings](#bluestacks-settings)
+7. 🔮 [Possible Features in Future Updates](#possible-features-in-future-updates)
+8. 🤝 [How to Contribute?](#how-to-contribute)
+9. 💖 [Want to Support?](#donate)
+10. 📜 [License](#license)
 
 ---
 
 # AoeM-bot
 
-**AoeM-bot** is a bot designed to automate the **Age of Empire Mobile** game. It is developed using **Python** and the **PyAutoGui** library.
+A **Python** bot developed to automate the **Age of Empire Mobile** game. Built using the **PyAutoGui** library.
 
-> ### Click the **SAVE** button after every setting change. The bot performs actions by reading the **ayarlar.json** file.
+> ### Click the **SAVE** button after every settings change. The bot reads operations from **settings.json**.
 
-> ### **Attention:**  
-> ### While this bot is running, you cannot perform other tasks on your computer. The game screen must always be visible.
+> ### **Warning:**
+> While this bot is active, you cannot perform other tasks on your computer. The game screen must always be visible.
 
-The bot will be continuously updated, and **New** versions will be shared as new features are added.
+The bot will be updated continuously and new versions will be shared as new features are added.
 
-**Suggestions and feedback are welcome. You can reach me through the [Telegram address](https://t.me/bigbullsup).**
+You can contact me via [my Telegram](https://t.me/bigbullsup) for suggestions and feedback.
 
+## Bot Start:
+
+1. Install the libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Start the bot:
+
+```bash
+py gui.py
+```
 
 ## Features
 
-| Feature               | Description                                               |
-|-----------------------|-----------------------------------------------------------|
-| ✅ **Auto Start**        | Works with BlueStacks emulator. (Image1)                  |
-| ✅ **Building**          | Handles building upgrades. (Image1)                       |
-| ✅ **Food**              | Collects food produced inside the castle. (Image1)        |
-| ✅ **Train Troops**      | Trains troops. (Image1)                                   |
-| ✅ **Collecting**        | Collects resources from the map by deploying heroes. (Image2) |
-| ✅ **Alliance Help**     | Performs alliance help tasks. (Image3)                    |
-| ✅ **Tech Points**       | Gathers alliance tech points. (Image3)                    |
-| ✅ **Delay**  | The delay between each mouse click in seconds. (Recommendation: 10 seconds, adjust according to your system) |
+| Feature              | Description                                                                                     |
+|---------------------|-------------------------------------------------------------------------------------------------|
+| ✅ **Auto Start**       | Valid for BlueStacks emulator. (Image1)                                                        |
+| ✅ **Building**         | Upgrades buildings. (Image1)                                                                   |
+| ✅ **Resources**        | Collects produced resources inside the castle. (Image1)                                        |
+| ✅ **Train Troops**     | Trains soldiers. (Image1)                                                                      |
+| ✅ **Gathering**        | Collects resources from the map with a hero. (Image2)                                          |
+| ✅ **Alliance Help**    | Sends alliance help. (Image3)                                                                  |
+| ✅ **Tech Points**      | Collects alliance tech points. (Image3)                                                       |
+| ✅ **Delay**            | Time in seconds between mouse clicks. (Recommended: 10 seconds — adjust based on your system) |
 
 ## Bot Screenshots
 
@@ -50,11 +65,11 @@ The bot will be continuously updated, and **New** versions will be shared as new
 ### 3:
 ![3](https://github.com/F0Rextasy/AoeM-Bot/blob/main/screeenshot/3.PNG)
 
-## How to Use the Auto Start Feature
+## Using the Auto Start Feature
 
 ![4](https://github.com/F0Rextasy/AoeM-Bot/blob/main/screeenshot/4.PNG)
 
-To use this feature, keep the **Bluestacks Multi-Instance Manager** window open at all times. Duplicate the emulator with the same settings. This is important as the bot may continue running even if the window closes. The bot works by clicking the **START** button.
+To use this feature, always keep the **Bluestacks Multi-Instance Manager** window open. Clone several emulator instances with the same settings. This prevents the bot from stopping if the window is closed. The bot's logic is to click the **START** button.
 
 ## BlueStacks Settings
 
@@ -67,81 +82,82 @@ To use this feature, keep the **Bluestacks Multi-Instance Manager** window open 
 ### 3:
 ![7](https://github.com/F0Rextasy/AoeM-Bot/blob/main/screeenshot/7.PNG)
 
-**Note:** Don’t forget to assign the **F3** and **F4** keys to these buttons. You can do this from the keyboard editor. Also, reduce the opacity so the buttons don’t obstruct the view.
+**Note:** Don’t forget to assign **F3** and **F4** to these buttons. You can do this via the keyboard editor. Also, reduce opacity so that the keys are not visible.
 
 ---
+
 # Update v2.0 - Major Update 🚀
 
-**New Language Options Now Available! 🌍**
+**New Language Options Available! 🌍**
 
-The bot has received a major update! Now, with more language support, we offer an enhanced experience for our users worldwide. With the newly added languages, you can now use the bot in your preferred language. The available languages are:
+A major update has arrived! The bot now supports more languages to enhance the global user experience. You can now use the bot in your own language. Available languages include:
 
-- **Türkçe (TR)**
+- **Turkish (TR)**
 - **English (EN)**
-- **Español (ES)**
-- **Français (FR)**
-- **Deutsch (DE)**
+- **Spanish (ES)**
+- **French (FR)**
+- **German (DE)**
 - **Bahasa Indonesia (ID)**
-- **Português (PT)**
-- **Italiano (IT)**
-- **ภาษาไทย (TH)**
-- **العربية (AR)**
-- **Русский (RU)**
-- **繁體中文 (ZH-TW)**
-- **简体中文 (ZH-CN)**
-- **日本語 (JA)**
-- **한국어 (KO)**
+- **Portuguese (PT)**
+- **Italian (IT)**
+- **Thai (TH)**
+- **Arabic (AR)**
+- **Russian (RU)**
+- **Traditional Chinese (ZH-TW)**
+- **Simplified Chinese (ZH-CN)**
+- **Japanese (JA)**
+- **Korean (KO)**
 
 ### Easier Usage with New Language Options! 🌐
 
-With this update, you can now use the bot in more languages! You can easily change your language preferences and enjoy all the features of the bot in the language of your choice.
+You can now easily change the language and use the bot in your preferred language, benefiting from all of its features.
 
 ---
 
 ## Possible Features in Future Updates
 
-| Feature               | Description                                              | Update  |
-|-----------------------|----------------------------------------------------------|------------------|
-| ⚡ **Exploration Surveillance Missions** | Ability to automatically perform exploration tasks.  | |
-| 🌍 **Different Language Options** | Support for Turkish and English languages.             | ✅ |
-| 🏆 **Daily VIP Rewards** | Collect daily VIP rewards and chests.                  | |
+| Feature                      | Description                                                    | Update |
+|-----------------------------|----------------------------------------------------------------|--------|
+| ⚡ **Exploration Missions**     | Ability to auto-complete missions in the exploration section. |        |
+| 🌍 **Multi-language Support** | Support for Turkish and English.                             | ✅     |
+| 🏆 **Daily VIP Rewards**     | Claim daily VIP rewards and chests.                          |        |
 
-**I am open to suggestions and feedback. Feel free to reach out via the Telegram address at the top of the page.**
+**I'm open to suggestions and feedback. Contact me via the Telegram link at the top of the page.**
 
 ### ⭐ Stargazers:
 [![Stargazers repo roster for @F0Rextasy/AoeM-Bot](https://reporoster.com/stars/dark/F0Rextasy/AoeM-Bot/)](https://github.com/F0Rextasy/AoeM-Bot/stargazers)
-### 🍴 Forkers:
+
+### 🍛 Forkers:
 [![Forkers repo roster for @F0Rextasy/AoeM-Bot](https://reporoster.com/forks/dark/F0Rextasy/AoeM-Bot)](https://github.com/F0Rextasy/AoeM-Bot/network/members)
 
-## 🤝 How to Contribute?
+## How to Contribute?
 
 1. **Star the Project** ⭐  
-   By starring this project on GitHub, you can help it reach more people.
+   Help this project reach more people by starring it on GitHub.
 
-2. **Fork the Repository** 🍴  
-   Fork the repo and make your own developments.
+2. **Fork the Project** 🍛  
+   Fork the repo and make your own improvements.
 
-3. **Make Changes and Submit a PR** 🚀  
-   After making changes in your forked repository, submit a _Pull Request_ to contribute to this project.
+3. **Make Changes and Send a PR** 🚀  
+   Develop on your fork and submit a *Pull Request* to contribute.
 
 4. **Report Issues** 🐞  
-   If you find any bugs or have suggestions, please share them through the _Issues_ section.
+   If you find a bug or have suggestions, share them via the *Issues* tab.
 
 ---
 
-Stay updated by **starring and forking the project**!  
-Your feedback and contributions are highly appreciated. 💬  
+To stay updated, please **star and fork** the project!  
+All contributions and feedback are highly appreciated. 💬
 
----
-## Want to Contribute?
+## Donate
 
-While many others sell similar bots for $25 a month, I’m offering this bot **completely for free**. If you appreciate the work I’ve put into this project, I’d be grateful for your support. If you'd like to contribute, you can donate via the **USDT BEP20** address below:
+While others sell similar bots for around $25/month, I’m offering this one completely **free**. I would appreciate your support for my effort. If you like the project and want to help, you can donate to the **USDT BEP20** address below:
 
 **USDT BEP20 Address:**  
 `0xd9a8782b3c4a6ebaa2387a0233793d87eb219922`
 
-Any donations will help improve and further develop this bot. Thank you for your support!
+Any donation helps the development of this bot. Thank you for your support!
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. Click [LICENSE](LICENSE) to view it.
